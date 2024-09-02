@@ -1,0 +1,6 @@
+name = "demo-saas-api"
+compatibility_date = "2024-08-30"
+main = "src/index.ts"
+account_id = "4e599df4216133509abaac54b109a647"
+
+route = { pattern = "saas.example.walshy.dev/api/*", zone_name = "example.walshy.dev" }

@@ -1,0 +1,11 @@
+name = "demo-saas-dispatcher"
+compatibility_date = "2024-08-30"
+main = "src/index.ts"
+account_id = "4e599df4216133509abaac54b109a647"
+
+route = { pattern = "saas.demo.walshy.dev/*", zone_name = "demo.walshy.dev" }
+
+[[dispatch_namespaces]]
+binding = "NAMESPACE"
+namespace = "demo"
+outbound = { service = "demo-saas-outbound-worker" }
